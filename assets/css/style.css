@@ -10546,3 +10546,130 @@ section{
 /* Dropdown Icon */
 
 
+.mobile-menu .nav-logo img{
+    max-width: 140px;
+    height: auto;
+}
+
+.mobile-menu .dropdown-btn{
+    display:none !important;
+}
+
+.mobile-menu .navigation li ul{
+    /* display:block !important;
+    opacity:1 !important;
+    visibility:visible !important;
+    position:relative !important;
+} */
+
+@media (max-width: 991px){
+
+    .mobile-menu .navigation li ul{
+        display:block !important;
+        position:relative !important;
+        visibility:visible !important;
+        opacity:1 !important;
+        height:auto !important;
+    }
+
+    .mobile-menu .dropdown-btn{
+        display:none !important;
+    }
+
+}}
+
+@media only screen and (max-width: 991px){
+
+    .header-right_buttom{
+        display: none !important;
+    }
+
+}
+
+.mobile-menu .menu-box{
+    height:auto !important;
+    max-height:85vh;
+    overflow-y:auto;
+}
+
+.overview-content p{
+    text-align: justify;
+    line-height: 1.9;
+    color: #666;
+}
+
+.contact-text h3 a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.contact-text h3 a:hover{
+    color: #00a9e0;
+}
+
+/* Banner Heading */
+.main-slider .content .big-title h2{
+    color: #000 !important;
+}
+
+/* Banner Description */
+.main-slider .content .text p{
+    color: #000 !important;
+}
+
+/* Watch Video Text */
+.main-slider .slider-video-gallery .title h6,
+.main-slider .slider-video-gallery .title p{
+    color: #000 !important;
+}
+
+/* Round Box Text */
+/* .main-slider .round-box h2,
+.main-slider .round-box h3,
+.main-slider .round-box p{
+    color: #000 !important;
+} */
+.main-slider .content .big-title h2{
+    color:#000 !important;
+    text-shadow: 1px 1px 5px rgba(255,255,255,0.8);
+}
+
+.main-slider .image-layer::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.35);
+}
+
+
+.about-style1-tab-content p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+/* About Section Paragraph Justify */
+.about-style3-text-box1 .text p,
+.about-style3-text-box2 .text-box p{
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.9;
+}
+.repair-highlights{
+    margin-top: 30px;
+}
+
+.col-lg-6 p{
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.9;
+}
+
+.justify-text{
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 30px;
+}

@@ -724,3 +724,39 @@ jQuery(window).on('load', function() {
 
 
 $(window).enllax();
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    if (window.innerWidth <= 991) {
+
+        const dropdownLinks = document.querySelectorAll(
+            '.mobile-menu .navigation li.dropdown > a'
+        );
+
+        dropdownLinks.forEach(link => {
+
+            link.addEventListener("click", function (e) {
+
+                e.preventDefault();
+
+                const submenu = this.parentElement.querySelector("ul");
+
+                if (submenu) {
+
+                    if (submenu.style.display === "block") {
+                        submenu.style.display = "none";
+                    } else {
+                        submenu.style.display = "block";
+                    }
+
+                }
+
+            });
+
+        });
+
+    }
+
+});
